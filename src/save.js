@@ -5,7 +5,7 @@ export default function save() {
 	return (
 		<p { ...useBlockProps.save() }>
 			{ __(
-				'Boilerplate - hello from the saved content!',
+				'dynamic-news - hello from the saved content!',
 				'textdomain'
 			) }
 		</p>

@@ -1,10 +1,13 @@
+import { __ } from '@wordpress/i18n';
 import { registerBlockType } from '@wordpress/blocks';
+import { useSelect, dispatch } from '@wordpress/data';
+import { useBlockProps, RichText } from '@wordpress/block-editor';
 import './style.scss';
-import Edit from './edit';
-import save from './save';
+import './editor.scss';
 import metadata from './block.json';
 
-registerBlockType( metadata.name, {
-	edit: Edit,
-	save,
-} );
+import './todos-store';
+import './plugins/sidebar';
+import './blocks/meta';
+import './blocks/todo-list-block';
+import './blocks/todo-list-info';

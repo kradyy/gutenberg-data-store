@@ -1,3 +1,4 @@
+
 /**
  * The following styles get applied inside the editor only.
  *
@@ -5,14 +6,6 @@
  */
 
 .wp-block-create-block-todo-list-block {
-
-	> ul {
-		list-style-type: none;
-
-		li.completed {
-			text-decoration: line-through;
-		}
-	}
 
 	.addtodo-form {
 		display: flex;
@@ -23,7 +16,7 @@
 		}
 
 		button {
-			margin-left: 20px;
+			margin-left: 10px;
 		}
 	}
 }
